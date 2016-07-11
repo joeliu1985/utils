@@ -2,7 +2,7 @@ package com.github.ichenkaihua;
 
 import java.text.NumberFormat;
 
-public class TestNumber {
+public class PercentageNumber {
   public static void main(String []args){
 	  int num1 = 7;
 
