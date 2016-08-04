@@ -180,16 +180,19 @@ SSM-Easy-Template集成了`gretty`插件,更多使用方法前往[gretty官网][
 ](http://chenkaihua.com/2015/12/19/running-mybatis-generator-with-gradle/)
 
 
-## 关于我
-**博客链接**:[陈开华的博客][4]
 
-**Email**: admin@chenkaihua.com
 
-[1]:https://www.jetbrains.com/idea/
-[2]: https://github.com/pagehelper/Mybatis-PageHelper
-[3]:https://github.com/abel533/Mapper
-[4]:http://www.chenkaihua.com
-[5]:https://github.com/akhikhl/gretty
-[6]:http://mybatis.github.io/generator/
-[7]: http://springfox.github.io/springfox/
-[8]: http://asciidoctor.org/
+.gitconfig中文配置
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[user]
+	name = 刘强
+[user]
+	email = liuqiang@kaike.la
+
+[gui]
+
+encoding = utf-8
