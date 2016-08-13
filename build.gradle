@@ -210,6 +210,7 @@ dependencies {
     mybatisGenerator 'tk.mybatis:mapper:3.3.8'
     
     compile 'com.github.pagehelper:pagehelper:4.1.6'
+    compile('com.alibaba:fastjson:1.2.0')  
 
 }
 
