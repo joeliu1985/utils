@@ -25,7 +25,7 @@ public class TestJson {
 	
 	private static final double times=1.5;
 	public static void main(String[] args) {
-		String content="{\"TotalUserNumber\":3,\"OnlineUserInfo\":{\"LiveStreamOnlineUserNumInfo\":[{\"StreamUrl\":\"rtmp://liveali.kaike.la/live/IKUKO6437\",\"UserNumber\":0}]},\"RequestId\":\"8F21186F-B5F0-47D9-BD66-3C5FC24A1658\"}";
+		String content = "{\"TotalUserNumber\":3,\"OnlineUserInfo\":{\"LiveStreamOnlineUserNumInfo\":[{\"StreamUrl\":\"rtmp://liveali.kaike.la/live/IKUKO6437\",\"UserNumber\":0}]},\"RequestId\":\"8F21186F-B5F0-47D9-BD66-3C5FC24A1658\"}";
 		
 		OnlineResponseVO vo=(OnlineResponseVO)JSON.parseObject(content,OnlineResponseVO.class);
 		
