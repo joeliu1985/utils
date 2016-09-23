@@ -25,6 +25,7 @@
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+BBBBBBBBBBBBBBBBBB
 <center><h2>SSM-Easy-Template Running</h2></center>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
