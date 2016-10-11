@@ -77,6 +77,7 @@ public class StatelessRealm extends AuthorizingRealm {
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(
 			PrincipalCollection principals) {
+		
 		UserPrincipal userPrincipal = (UserPrincipal) principals.getPrimaryPrincipal();
 		UserPrincipal.PrincipType principType = userPrincipal.getPrincipType();
 		SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();

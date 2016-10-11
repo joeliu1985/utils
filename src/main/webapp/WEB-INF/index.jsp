@@ -28,9 +28,13 @@
 master check
 <center><h2>SSM-Easy-Template Running</h2></center>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 hot fixed 
+>>>>>>> hotfix
+=======
+hot fixed ????
 >>>>>>> hotfix
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
