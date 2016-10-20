@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Table(name = "user")
 public class User {
     /**
-     * 用户id,自增长
+     * 用户id,自增长?????
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,18 +22,18 @@ public class User {
     private String password;
 
     /**
-     * 获取用户id,自增长
+     * 获取用户id,自增长?????
      *
-     * @return id - 用户id,自增长
+     * @return id - 用户id,自增长?????
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * 设置用户id,自增长
+     * 设置用户id,自增长?????
      *
-     * @param id 用户id,自增长
+     * @param id 用户id,自增长?????
      */
     public void setId(Integer id) {
         this.id = id;

@@ -17,3 +17,6 @@
 [gui]
 
 encoding = utf-8
+
+
+gradle mybatisGenerate
