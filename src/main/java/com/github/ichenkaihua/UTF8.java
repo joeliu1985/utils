@@ -11,7 +11,6 @@ public class UTF8 {
 	try {
 		name  = new String(name.getBytes("ISO-8859-1"),"UTF-8");
 	} catch (UnsupportedEncodingException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}  
 	System.out.println("经过解码后参数：" + name);  
