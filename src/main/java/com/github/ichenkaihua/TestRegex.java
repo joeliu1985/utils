@@ -15,7 +15,7 @@ public class TestRegex {
 
 	private final static String RESOURCE_CODE_PATTERN = "[\'\"]\\S+[\'\"]";
 
-	private final static String IDTOKEN = "[\'\"]";
+	private final static String ID_TOKEN = "[\'\"]";
 	
 	private String getAuthResourceCode(String content) {
 		Pattern pId = Pattern.compile(RESOURCE_ID_PATTERN,Pattern.CASE_INSENSITIVE);
@@ -26,7 +26,7 @@ public class TestRegex {
 			Matcher mCode = pCode.matcher(resourceId);
 			if (mCode.find()) {
 				String resourceTemp = mCode.group();
-				String resourceCode = resourceTemp.replaceAll(IDTOKEN, "");
+				String resourceCode = resourceTemp.replaceAll(ID_TOKEN, "");
 				return resourceCode;
 			}
 		}
